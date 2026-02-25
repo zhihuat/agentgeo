@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* EMKADIA SHORTCODES */
+.emk-custom-module-container {}
+.emk-custom-module-wrapper {margin-bottom:20px;}
+.emk-custom-module-wrapper:last-child {margin-bottom:0px;}
+.emk-custom-module-title-wrapper .emk-custom-module-title-blue {padding:10px; margin:0px 0px 10px 0px; background:#002c49; color:#ffffff; font-family:'Rubik'; font-size:20px; line-height:1.4; font-weight:600;}
+
+/* EMKADIA RELATED AUTHOR */
+.emk-related-author-container {}
+.emk-related-author-wrapper {border:8px solid #dddddd;padding:10px 14px 10px 14px;}
+.emk-related-author-details {width:60%; max-width:60%; display:inline-block; float:left;}
+.emk-related-author-detail {font-size:16px !important; line-height:1.4 !important; width:100%; max-width:100%; display:block;}
+.emk-related-author-logo {width:38%; max-width:38%; display:inline-block; float:right;}
+
+/* EMKADIA RELATED CONTRIBUTOR */
+.emk-custom-module-wrapper .emk-rel-contributor {background:#dddddd; padding:20px; margin-bottom:0px; border-bottom:2px solid #D90368;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-meta {width:60%; max-width:60%; display:inline-block; float:left;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-meta h3 {margin:0px 0px 4px 0px;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-meta .emk-contributor-job-role {font-size:16px; font-weight:bold;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-meta .emk-contributor-organisation {font-size:16px;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-thumb {width:38%; max-width:38%; display:inline-block; float:right;}
+.emk-custom-module-wrapper .emk-rel-contributor .emk-contributor-thumb img {width:auto; margin:0px 0px 0px 0px !important}
+
+
+
