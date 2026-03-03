@@ -342,7 +342,7 @@
                     <h4 class="subtitle is-4" style="font-weight: 150; font-size: medium">
                         <br>TLDR: We introduce <b>AgentGEO</b>, an agentic framework that <b>diagnoses why webpages fail to be cited</b> in AI-generated responses
                         and applies <b>targeted repairs</b>. Combined with a <b>citation failure taxonomy</b> and a <b>document-centric benchmark (MIMIQ)</b>,
-                        AgentGEO achieves <span style="color: rgb(212, 67, 54);"><b>&gt;40% relative improvement</b></span> in citation rates while modifying only 5% of content.
+                        AgentGEO achieves <span style="color: rgb(212, 67, 54);"><b>&gt;40% relative improvement</b></span> in citation rates while modifying only 5% of content, compared to 25% for baselines.
                     </h4>
 
                     <div class="is-size-5 publication-authors">
@@ -360,13 +360,18 @@
                     <div class="column has-text-centered" style="margin-top: 1rem;">
                         <div class="publication-links">
                             <span class="link-block">
-                                <a href="https://arxiv.org/abs/2510.21910" class="external-link button is-normal is-rounded is-dark">
+                                <a href="https://arxiv.org/" class="external-link button is-normal is-rounded is-dark">
                                     <span>Paper</span>
                                 </a>
                             </span>
                             <span class="link-block">
-                                <a href="https://anonymous.4open.science/r/AgentGEO-2D80" class="external-link button is-normal is-rounded is-dark">
+                                <a href="https://github.com/Ch1nyzzz/AgentGEO" class="external-link button is-normal is-rounded is-dark">
                                     <span>Code</span>
+                                </a>
+                            </span>
+                            <span class="link-block">
+                                <a href="https://huggingface.co/datasets/GeoAgent/GEO_Agent_with_queries" class="external-link button is-normal is-rounded is-dark">
+                                    <span>Dataset</span>
                                 </a>
                             </span>
                         </div>
@@ -550,7 +555,7 @@
                 </div>
 
                 <div class="figure-card" style="margin-top: 1.5rem;">
-                    <img src="./website/images/workflow_v2.png" alt="The workflow of AgentGEO">
+                    <img src="./website/images/workflow_v2.pdf" alt="The workflow of AgentGEO">
                 </div>
             </div>
 
@@ -699,7 +704,7 @@
 
 <!-- ======================= DEMO ======================= -->
 <section class="section" id="demo">
-<div class="container is-max-desktop">
+<div class="container is-widescreen">
     <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2 class="title is-3 gradient-title">Demo: Before vs. After AgentGEO Optimization</h2>
@@ -707,7 +712,7 @@
     </div>
 
     <div class="columns is-centered">
-    <div class="column is-11">
+    <div class="column is-12">
 
         <!-- Tabs -->
         <div class="demo-tabs" id="demoTabs">
